@@ -33,9 +33,9 @@
         android:layout_marginStart="12dp"
         android:text="TextView"
         android:textColor="@color/black"
-        android:textSize="14sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:background="@color/colorPrimary"
+
         android:layout_marginEnd="12dp"
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toStartOf="@+id/Product_Sp"
@@ -46,13 +46,13 @@
         android:id="@+id/Product_Sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        android:textStyle="bold"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Product_Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
 
@@ -60,17 +60,18 @@
         android:id="@+id/Product_Dis"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/colorPrimary"
+        android:background="#BE66D6"
         android:layout_marginTop="18dp"
         android:layout_marginHorizontal="12dp"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="@color/black"
         android:text="TextView"
+        android:padding="4dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/addCard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Product_Sp" />
+        app:layout_constraintTop_toBottomOf="@+id/Product_Name" />
 
     <TextView
         android:id="@+id/addCard"
